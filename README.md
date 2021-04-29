@@ -11,7 +11,7 @@ c. adam.py contains my implementation of Adam and AdamW algorithm (with or witho
 
 d. adam_exp.py, adamW_exp.py and SGD_exp.py contains the code of the experiments for evaluating their performance on the CIFAR10 data set. If you woud like to run them on a computing cluster with GPUs, adam_exp2.py, adamW_exp2.py and SGD_exp2.py are the python scripts for running the Slurm job arrays, and Adam.sh, AdamW.sh and SGD.sh are the bash scripts for Slurm.
 
-e. makePlots.ipynb is the notebook for reproducing figures in the report/poster using the saved summary statistics (e.g. traing loss) in the directory of summary_stats
+e. makePlots.ipynb is the notebook for reproducing figures in the report/poster using the saved summary statistics (e.g. training loss) in the directory of summary_stats
 
 f. In the directory of data, there is the CIFAR10 data set.
 
