@@ -1,1 +1,1 @@
-This directory contains the data set CIFAR-10 (source: ECE590 Homework 3)
+The data is too large to load to GitHub. The original data file is from ECE 590 Homework 3.
