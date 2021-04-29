@@ -2,18 +2,18 @@
 
 A. Introduction of python and data set files
 
-a. resnet20.py and pruned_layers.py contain the implementation of ResNet-20 (source: ECE590 Homework 3).
+a. resnet20.py and pruned_layers.py: the implementation of ResNet-20 (source: ECE590 Homework 3).
 
-b. train_util contains training an architecture on the CIFAR10 data set using either SGD, Adam, or AdamW (with or without AMSGrad) algorithm.
+b. train_util: training an architecture on the CIFAR10 data set using either SGD, Adam, or AdamW (with or without AMSGrad) algorithm.
 
-c. adam.py contains my implementation of Adam and AdamW algorithm (with or without AMSGrad).
+c. adam.py: my implementation of Adam and AdamW algorithm (with or without AMSGrad).
 (code reference: https://github.com/pytorch/pytorch/blob/master/torch/optim/sgd.py).
 
-d. adam_exp.ipynb, adamW_exp.ipynb and SGD_exp.ipynb are the Python notebook for the experiments for evaluating the performance of the algorithms on the CIFAR10 data set. If you woud like to run them on a computing cluster with GPUs, adam_exp.py, adamW_exp.py and SGD_exp.py are the python scripts for running the Slurm job arrays, and Adam.sh, AdamW.sh and SGD.sh are the bash scripts for Slurm.
+d. adam_exp.ipynb, adamW_exp.ipynb and SGD_exp.ipynb: Python notebook for the experiments for evaluating the performance of the algorithms on the CIFAR10 data set. If you woud like to run them on a computing cluster with GPUs, adam_exp.py, adamW_exp.py and SGD_exp.py are the python scripts for running the Slurm job arrays, and Adam.sh, AdamW.sh and SGD.sh are the bash scripts for Slurm.
 
-e. makePlots.ipynb is the notebook for reproducing figures in the report/poster using the saved summary statistics (e.g. training loss) in the directory of summary_stats
+e. makePlots.ipynb: notebook for reproducing figures in the report/poster using the saved summary statistics (e.g. training loss) in the directory of summary_stats
 
-f. In the directory of data, there is the CIFAR10 data set.
+f. In the directory of data, there is the CIFAR10 data set (Since the data file is too large, it was not successfully uploaded.)
 
 
 
