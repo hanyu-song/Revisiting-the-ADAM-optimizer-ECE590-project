@@ -24,4 +24,4 @@ a. (directory) check_points: check points of the trained ResNet-20 models on the
 
 b. (directory) summary_stats: summary statistics from the entire run, with the names being in the format of  "net_{method}_{weight decay parameter * 1e7}_amsgrad_{amsgrad status}_epoch_{total number of epochs}.p". In particular, total number of epochs = 1800 and method = SGD, Adam or AdamW. There are two variables saved in each file, with the first variable being accuracies and the second one being losses. Both variables are a numpy array with dimensions (number of epochs * 2), with the first column associated with the training set and second column associated with the test set. For example, accuracy[5,0] refers to the training accuracy at Epoch 5; loss[100, 1] refers to the test loss at Epoch 100.
 
-####  Note that, to reproduce the figures, simply run makePlots.ipynb.
+####  Note that to reproduce the figures, simply run makePlots.ipynb.
