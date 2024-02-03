@@ -1,4 +1,4 @@
-# ECE590_finalproject
+# ECE590 final Project - Revisiting the ADAM optimizer
 
 #### A. Introduction of python and data set files
 
